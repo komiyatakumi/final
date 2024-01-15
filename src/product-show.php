@@ -1,11 +1,6 @@
+<?php session_start(); ?>
 <?php require 'header.php'; ?>
-<?php require 'menu.php'; ?>
 <?php require 'db-connect.php'; ?>
-<form action="product.php"method="post">
-商品検索
-<input type="text" name="keyword">
-<input type="submit" value="検索">
-</form>
 <hr>
 <?php
 echo '<table>';
@@ -23,6 +18,7 @@ echo '<tr>';
 echo '<td>',$id,  '</td>';
 echo '<td>',$row['game_name'], '</td>';
 echo '<td>',$row['planning_company'],'</td>';
+echo '<td><a href="product-delete.php?id=',$id,'">削除</a></td>';
 echo '</tr>';
 }
 echo '</table>';
