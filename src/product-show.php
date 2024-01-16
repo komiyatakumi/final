@@ -18,7 +18,7 @@ echo '<tr>';
 echo '<td>',$id,  '</td>';
 echo '<td>',$row['game_name'], '</td>';
 echo '<td>',$row['planning_company'],'</td>';
-echo '<td><a href="delete.php?id=',$id,'">削除</a></td>';
+echo '<td><a href="delete.php?game_id=',$id,'">削除</a></td>';
 echo '</tr>';
 }
 echo '</table>';

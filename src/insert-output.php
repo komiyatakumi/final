@@ -29,7 +29,7 @@ echo 'お客様情報を更新しました。';
 echo '新規商品を追加しました。';
 echo '<hr>';
 }
-
 }
+echo '<td><a href="menu.php">戻る</a></td>';
 ?>
 <?php require 'footer.php'; ?>

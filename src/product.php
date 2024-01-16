@@ -26,5 +26,6 @@ echo '<td>',$row['planning_company'],'</td>';
 echo '</tr>';
 }
 echo '</table>';
+echo '<td><a href="menu.php">戻る</a></td>';
 ?>
 <?php require 'footer.php'; ?>
